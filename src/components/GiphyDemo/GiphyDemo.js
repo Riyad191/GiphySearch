@@ -3,6 +3,7 @@ import GiphyDisplayPanel from "../GiphyDisplayPanel/GiphyDisplayPanel";
 import LogoImage from "../../asssets/img/kMFLJfI.png";
 import { searchGifs, fetchGifsTrend } from "../../services/giphy.api";
 import { isScrolledToTheBottom } from "../../utils/isScrolledToTheBottom";
+import "./GiphyDemo.css";
 import TotalCount from "../TotalCount/TotalCount";
 import LoadingSpinner from "../LaodingSpinner/LoadingSpinner";
 const GiphyDemo = () => {

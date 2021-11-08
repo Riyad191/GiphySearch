@@ -1,4 +1,5 @@
 import React from "react";
+import "./GiphyDisplayPanel.css";
 const GiphyDisplayPanel = ({ giphyList }) => {
   return (
     <section

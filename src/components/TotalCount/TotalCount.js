@@ -1,4 +1,5 @@
 import React from "react";
+import "./TotalCount.css";
 
 const TotalCount = ({ pagination }) => {
   return (
