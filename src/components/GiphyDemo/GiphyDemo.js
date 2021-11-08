@@ -86,7 +86,7 @@ const GiphyDemo = () => {
   };
   return (
     <section className="giphy-app__parent-section">
-      <div id="giphy-app__child-section" onScroll={hanldeScroll}>
+      <aside id="giphy-app__child-section" onScroll={hanldeScroll}>
         <div
           style={{ display: "flex", justifyContent: "center", width: "100%" }}
         >
@@ -109,10 +109,12 @@ const GiphyDemo = () => {
             </button>
           </form>
         </div>
-        <TotalCount pagination={pagination} />
-        <GiphyDisplayPanel giphyList={giphyList} />
-        <LoadingSpinner isLoading={isLoading} />
-      </div>
+        <aside id="giphy-page__components">
+          <TotalCount pagination={pagination} />
+          <GiphyDisplayPanel giphyList={giphyList} />
+          <LoadingSpinner isLoading={isLoading} />
+        </aside>
+      </aside>
     </section>
   );
 };

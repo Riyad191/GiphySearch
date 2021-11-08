@@ -21,59 +21,5 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  text-align: center;
   flex-direction: column;
-}
-
-:root {
-  --search-button: #ffffff;
-  --top-button-gradient: rgb(225, 125, 255);
-  --bottom-button-gradient: rgb(109, 0, 103);
-}
-
-@media only screen and (max-width: 700px) {
-  .giphyDisplay-page__panel {
-    flex-direction: column;
-  }
-  .giphyDisplay-page__imgs {
-    border-radius: 5px;
-    height: 300px;
-  }
-  .giphyDisplay-page__imgs-parent {
-    width: 50%;
-    margin: 10px 0;
-  }
-  .giphy-app__form {
-    width: 90%;
-    flex-direction: column;
-    padding-right: 0px;
-    height: 200px;
-  }
-  .giphy-page__search-button {
-    margin-top: 10px;
-    margin-top: 10px;
-  }
-  .giphy-images__search-bar {
-    width: 350px;
-  }
-  .Giphy-app__data-totalCount {
-    font-size: 18px;
-    top: 340px;
-    left: 30px;
-    background: none;
-    padding: 0px;
-    border: none;
-  }
-  .giphy-app__offset,
-  .giphy-app__totalCount {
-    font-size: 18px;
-  }
-}
-@media screen and (max-width: 1300px) and (min-width: 700px) {
-  .Giphy-app__data-totalCount {
-    display: none;
-  }
-  .giphy-app__form {
-    width: 80%;
-  }
 }
