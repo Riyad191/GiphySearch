@@ -59,6 +59,9 @@
   justify-content: center;
   align-items: center;
 }
+.loading {
+  color: var(--search-button-icon);
+}
 @media only screen and (max-width: 700px) {
   .giphy-app__form {
     width: 90%;

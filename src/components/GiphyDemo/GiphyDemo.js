@@ -5,7 +5,7 @@ import { searchGifs, fetchGifsTrend } from "../../services/giphy.api";
 import { isScrolledToTheBottom } from "../../utils/isScrolledToTheBottom";
 import "./GiphyDemo.css";
 import TotalCount from "../TotalCount/TotalCount";
-import LoadingSpinner from "../LaodingSpinner/LoadingSpinner";
+import LoadingSpinner from "../LoadingSpinner/LoadingSpinner";
 const GiphyDemo = () => {
   const [giphyList, setGiphyList] = useState([]);
   const [userInput, setUserInput] = useState("");
