@@ -1,0 +1,84 @@
+:root {
+  --search-button-icon: #ffffff;
+  --top-button-gradient: rgb(225, 125, 255);
+  --bottom-button-gradient: rgb(109, 0, 103);
+}
+.giphy-app__parent-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.giphy-images__search-bar {
+  width: 470px;
+  height: 44px;
+  font-size: 20px;
+  font-family: sans-serif;
+  border: none;
+  outline: none;
+  padding-left: 20px;
+}
+.giphy-app__logo {
+  width: 200px;
+  height: 55px;
+}
+.giphy-app__form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+  background-color: rgb(18, 18, 18);
+  height: 100px;
+  border: solid rgb(87, 59, 0) 2px;
+  width: 60%;
+}
+.giphy-page__search-button {
+  font-size: 20px;
+  background: linear-gradient(
+    var(--top-button-gradient),
+    var(--bottom-button-gradient)
+  );
+  color: var(--search-button-icon);
+  outline: none;
+  padding: 9px 22px;
+  cursor: pointer;
+  border: none;
+  transition-duration: 0.9s;
+}
+.giphy-page__search-button:hover {
+  font-size: 20px;
+  background: var(--bottom-button-gradient);
+  transition-duration: 0.9s;
+}
+#giphy-page__search-icon {
+  font-size: 25px;
+}
+#giphy-page__components {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.loading {
+  color: var(--search-button-icon);
+}
+@media only screen and (max-width: 700px) {
+  .giphy-app__form {
+    width: 90%;
+    flex-direction: column;
+    padding-right: 0px;
+    height: 200px;
+  }
+  .giphy-page__search-button {
+    margin-top: 10px;
+    margin-top: 10px;
+  }
+  .giphy-images__search-bar {
+    width: 350px;
+  }
+}
+@media screen and (max-width: 1300px) and (min-width: 700px) {
+  .giphy-app__form {
+    width: 80%;
+  }
+}
